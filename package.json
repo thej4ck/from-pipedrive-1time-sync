@@ -1,0 +1,16 @@
+{
+    "name": "mssql-update-csv",
+    "version": "1.0.0",
+    "description": "Script che aggiorna record in SQL Server da CSV",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "csv-writer": "^1.6.0",
+        "dotenv": "^16.3.1",
+        "mssql": "^9.0.0"
+    }
+  }
+  
